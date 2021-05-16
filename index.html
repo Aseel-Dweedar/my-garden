@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my-garden</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Fabulous Garden</h1>
+    </header>
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend>New Flower</legend>
+
+                <label for="image">Image</label>
+                <br>
+
+                <select name="" id="image" required>
+                    <option disabled selected value></option>
+                    <option value="./img/Alstroemerias.jpeg">Alstroemerias</option>
+                    <option value="./img/Gardenias.jpeg">Gardenias</option>
+                    <option value="./img/Orchids.jpeg">Orchids</option>
+                    <option value="./img/Peonies.jpeg">Peonies</option>
+                    <option value="./img/Roses.jpeg">Roses</option>
+                    <option value="./img/Sunflowers.jpeg">Sunflowers</option>
+                    <option value="./img/Tulips.jpeg">Tulips</option>
+                </select>
+                <br>
+                <label for="name">Name</label>
+                <br>
+                <input id="name" type="text" required>
+                <br>
+                <label for="season">Season</label>
+                <br>
+                <input id="season" type="text" required>
+                <br>
+                <br>
+                <input id="submit" type="submit" value="Save">
+
+                <button type="button" id="clear">Clear LS</button>
+
+            </fieldset>
+        </form>
+
+        <div id="tableContainer"></div>
+    </main>
+    <footer>
+        <p>All right reserved 2021 &copy; ASAC</p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
